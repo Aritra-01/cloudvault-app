@@ -1,8 +1,44 @@
+# Dependencies
 node_modules/
+.pnp/
+.pnp.js
+
+# Build outputs
 dist/
-dist-ssr/
-*.local
+build/
+out/
+
+# Tauri
 src-tauri/target/
-android/app/build/
-android/.gradle/
-.cargo/
+src-tauri/gen/
+
+# Android / Capacitor
+android/
+ios/
+*.apk
+*.aab
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Testing
+coverage/
